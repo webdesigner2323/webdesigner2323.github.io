@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Large Cats Gallery</title>
+</head>
+<body>
+    <h1>Large Cats Gallery</h1>
+    <p>Welcome to the Large Cats Gallery. Here you will find images of large cats sourced from the internet. Enjoy!</p>
+    <img src="^https://www.fourpaws.com/pets-101/cat-corner/large-cat-breeds^" alt="Large Cat 1">
+    <p>Image source: [Large Cat 1](https://bing.com/th?id=OIP.-Adr7jZm2n4xGDeGtW-2FAHaE6)</p>
+    <img src="^https://www.fourpaws.com/pets-101/cat-corner/large-cat-breeds^" alt="Large Cat 2">
+    <p>Image source: [Large Cat 2](https://bing.com/th?id=OIP.f0KWRFBtQG-Q9DAeF0I8CwHaJQ)</p>
+    <img src="^https://www.fourpaws.com/pets-101/cat-corner/large-cat-breeds^" alt="Large Cat 3">
+    <p>Image source: [Large Cat 3](https://bing.com/th?id=OIP.j-pgeGlmFa0cdJxIg2xsmQHaFj)</p>
+</body>
+</html>
+
