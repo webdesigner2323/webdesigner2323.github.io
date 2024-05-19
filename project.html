@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whimsical Team Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .team-member {
+            overflow: hidden;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .team-member img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .bio {
+            overflow: hidden;
+        }
+
+        .bio h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bio p {
+            margin: 5px 0 0 0;
+        }
+
+        #plant {
+            position: relative;
+            background-color: #e0ffe0;
+        }
+
+        #plant .bio {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="team-member" id="cat">
+            <img src="https://placekitten.com/150/150" alt="Whiskers the Cat">
+            <div class="bio">
+                <h2>Whiskers the Cat</h2>
+                <p>Whiskers is the chief nap officer who brings tranquility and charm to the team. Known for his impeccable grooming habits and purring consultations.</p>
+            </div>
+        </div>
+
+        <div class="team-member" id="dog">
+            <img src="https://placedog.net/150/150" alt="Buddy the Dog">
+            <div class="bio">
+                <h2>Buddy the Dog</h2>
+                <p>Buddy is our enthusiastic motivator, always ready for a game of fetch and ensuring everyone stays active and engaged.</p>
+            </div>
+        </div>
+
+        <div class="team-member" id="bear">
+            <img src="https://m.media-amazon.com/images/I/61QRdElDEgL.jpg" alt="Mr. Cuddles the Stuffed Bear">
+            <div class="bio">
+                <h2>Mr. Cuddles the Stuffed Bear</h2>
+                <p>Mr. Cuddles is our emotional support specialist, providing endless hugs and comfort to all team members.</p>
+            </div>
+        </div>
+
+        <div class="team-member" id="plant">
+            <img src="https://media.istockphoto.com/id/1170042287/photo/small-cactus-in-pot-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=SH0Y3E15IiX9lGM3ZxWw8OyVsSJDqKQxxBS0zGe0FQo=" alt="Fern the Houseplant">
+            <div class="bio">
+                <h2>Fern the Houseplant</h2>
+                <p>Fern is our office air purifier and zen master, contributing to a calm and oxygen-rich environment.</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to the Whimsical Team's About Us page! Here, you'll learn more about our delightful members who bring charm and joy to our team.</p>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <p>Discover the services provided by the Whimsical Team, including emotional support, office ambiance enhancement, and more!</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>If you would like to reach out to the Whimsical Team, please contact us via email or phone.</p>
+    </section>
+</body>
+</html>
