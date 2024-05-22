@@ -1,0 +1,32 @@
+/* Common styles for all scorecards */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.scorecard {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.scorecard caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.scorecard th, .scorecard td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Style every other row */
+.scorecard tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
