@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            height: 100vh;
+        }
+
+        .header, .footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .footer {
+            border-top: 1px solid #ddd;
+        }
+
+        .puzzle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fafafa;
+            padding: 20px;
+        }
+
+        .puzzle-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 500px; /* Adjust according to your puzzle size */
+            height: 500px; /* Adjust according to your puzzle size */
+            border: 1px solid #ccc;
+        }
+
+        .puzzle-container img {
+            width: 100px; /* Adjust according to your puzzle piece size */
+            height: 100px; /* Adjust according to your puzzle piece size */
+            box-sizing: border-box;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Shane</h1>
+            <p>Puzzle: Fish</p>
+        </header>
+        <section class="puzzle">
+            <div class="puzzle-container">
+                <!-- Flexbox container for puzzle pieces -->
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Flex container properties were used to solve the puzzle.</p>
+            <p>The faulty puzzle piece is hidden using display property.</p>
+            <p>Date: May 22, 2024</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const puzzleContainer = document.querySelector(".puzzle-container");
+
+            const imageNames = [
+                "puzzle3_A.jpg", "puzzle3_B.jpg", "puzzle3_C.jpg", "puzzle3_D.jpg",
+                "puzzle3_E.jpg", "puzzle3_F.jpg", "puzzle3_G.jpg", "puzzle3_H.jpg",
+                "puzzle3_I.jpg", "puzzle3_J.jpg" // Assuming no faulty piece
+            ];
+
+            imageNames.forEach(imageName => {
+                const img = document.createElement("img");
+                img.src = `images/${imageName}`;
+
+                puzzleContainer.appendChild(img);
+            });
+        });
+    </script>
+</body>
+</html>
