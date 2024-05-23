@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Image Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .project {
+            margin: 20px;
+            display: inline-block;
+            perspective: 1000px; /* This is needed for the 3D effect */
+        }
+
+        .project img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.2) translateZ(30px); /* Zoom and pop-out effect */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Enhanced shadow effect */
+        }
+
+        /* Specific styles for each project */
+        .presenting img {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 5px solid #fff;
+            background: linear-gradient(45deg, #ff6f00, #ffca28);
+            padding: 10px;
+        }
+
+        .butterfly img {
+            filter: sepia(100%) hue-rotate(180deg) saturate(200%);
+        }
+    </style>
+</head>
+<body>
+    <div class="project presenting">
+        <img src="https://s3.amazonaws.com/cms.accelerate-ed.com/image/75b9624b-be4e-4eed-a712-a4f8fecc6790.png" alt="Presenting">
+    </div>
+    <div class="project butterfly">
+        <img src="https://s3.amazonaws.com/cms.accelerate-ed.com/image/dfd8c1c3-a2a6-4ead-baad-108e1f656c8e.png" alt="Butterfly">
+    </div>
+    <div class="project seagull">
+        <img src="https://s3.amazonaws.com/cms.accelerate-ed.com/image/a28851be-cf99-4e92-b508-b18e61f5fbb5.png" alt="Seagull">
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Image Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .project {
+            margin: 20px;
+            display: inline-block;
+            perspective: 1000px; /* This is needed for the 3D effect */
+        }
+
+        .project img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.2) translateZ(30px); /* Zoom and pop-out effect */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Enhanced shadow effect */
+        }
+
+        /* Specific styles for each project */
+        .presenting img {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 5px solid #fff;
+            background: linear-gradient(45deg, #ff6f00, #ffca28);
+            padding: 10px;
+        }
+
+        .butterfly img {
+            filter: sepia(100%) hue-rotate(180deg) saturate(200%);
+        }
+    </style>
+</head>
+<body>
+    <div class="project presenting">
+        <img src="presenting-image.jpg" alt="Presenting">
+    </div>
+    <div class="project butterfly">
+        <img src="butterfly-image.jpg" alt="Butterfly">
+    </div>
+    <div class="project seagull">
+        <img src="seagull-image.jpg" alt="Seagull">
+    </div>
+</body>
+</html>
+
